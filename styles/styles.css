@@ -1,0 +1,25 @@
+body {
+  background: rgb(255, 121, 121);
+  background: radial-gradient(
+    circle,
+    rgba(255, 121, 121, 1) 0%,
+    rgba(249, 246, 184, 1) 100%
+  );
+  /* height: 200vh; */
+}
+
+.frostedNav {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 32px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* @media (min-width: 992px) {
+  .navbar-collapse {
+    justify-content: center;
+  }
+} */
