@@ -28,3 +28,8 @@
 .title {
   font-size: 4rem;
 }
+
+.divPlaceHolder {
+  height: 20rem;
+  width: 40rem;
+}
