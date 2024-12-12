@@ -31,5 +31,15 @@
 
 .divPlaceHolder {
   height: 20rem;
-  width: 40rem;
+  width: 105rem;
+}
+
+.textLink {
+  background: radial-gradient(
+    circle,
+    rgba(255, 121, 121, 1) 0%,
+    rgb(255, 191, 87) 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
 }
